@@ -3,12 +3,12 @@ import { Gmail, Java, Python , Javascript, Typescript, Swift, Mysql, Realm, Mong
 
 export const me = {
     site: "https://www.anzifan.com",
-    name: '异次元de机智君💯',
+    name: '设计标准化💯',
     bio: '💻 🎨 🎮 ⚡️',
     social: [
         ...links,
         {
-            url: 'mailto:541297173@qq.com',
+            url: 'mailto:913229954@qq.com',
             icon: Gmail,
             name: 'Email',
             fill: "fill-gray-400",

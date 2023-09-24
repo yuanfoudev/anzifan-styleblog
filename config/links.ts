@@ -2,6 +2,7 @@ import { Github, Dribbble, Props, Linkedin } from '@icons-pack/react-simple-icon
 import { FC } from 'react'
 import Sspai from '../assets/sspai.svg'
 import Zhihu from '../assets/zhihu.svg'
+import bilibili from '../assets/bilibili.svg'
 
 export type LinkType = {
     url: string,
@@ -61,13 +62,13 @@ export const links : readonly [LinkType, LinkType, LinkType, LinkType, LinkType]
         name: 'Dribbble'
     },
     {
-        url: 'http://linkedin.com/in/zifan-an/',
-        icon: Linkedin,
+        url: 'https://space.bilibili.com/516566501',
+        icon: bilibili,
         fill: "fill-[#0A66C2]",
         border: "border-[#0A66C2]",
         shadow: "shadow-blue-300",
         text:"text-[#0A66C2]",
         color: 'from-bg-[#0b66c2] to-bg-[#008bff]',
-        name: 'LinkedIn'
+        name: 'bilibili'
     }
 ]
