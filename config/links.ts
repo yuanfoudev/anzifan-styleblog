@@ -27,7 +27,7 @@ export const links : readonly [LinkType, LinkType, LinkType, LinkType, LinkType]
         text:"text-[#181717]",
         shadow: "shadow-true-gray-400",
         id: "MannyCooper",
-        name: "公众号"
+        name: "少数派"
     },
     {
         url: 'https://www.xiaohongshu.com/user/profile/62a4b19e000000002102932e',
