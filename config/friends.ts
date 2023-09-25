@@ -7,8 +7,8 @@ export type FriendType = {
 export const friends: FriendType[] = [
   {
     url: 'https://blog.yhz610.com/',
-    name: '阿猫阿狗',
-    img: 'https://cdn.yhz610.com/pic/blog/zhuazi.svg',
+    name: '设计标准化',
+    img: 'https://www.xiaohongshu.com/user/profile/611b7ce10000000001015a52?xhsshare=CopyLink&appuid=62a4b19e000000002102932e&apptime=1695618050',
   },
   {
     url: 'https://shiraha.cn/',
