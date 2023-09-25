@@ -46,7 +46,7 @@ const Footer = () => {
                                         )}
                                     </div>
                                 </div>
-                                <p className="group">Design & Build with <span className="group-hover:text-red-400 transition-colors duration-500 ease-in-out">❤</span> by <a className="text-true-gray-600 hover:underline" href="https://github.com/MannyCooper/anzifan.com" target="_blank" rel="noopener noreferrer" dark="text-true-gray-400">MannyCooper</a></p>
+                                <p className="group">Design & Build with <span className="group-hover:text-red-400 transition-colors duration-500 ease-in-out">❤</span> by <a className="text-true-gray-600 hover:underline" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU5NTkwMDAzOA==" target="_blank" rel="noopener noreferrer" dark="text-true-gray-400">MannyCooper</a></p>
                             </div>
                             <p className="flex flex-col items-end">
                                 <a className="hover:underline" href="https://anzifan-old.vercel.app" target="_blank" rel="noopener noreferrer">Old Blog</a>
