@@ -8,7 +8,7 @@ export const friends: FriendType[] = [
   {
     url: 'https://www.xiaohongshu.com/user/profile/611b7ce10000000001015a52?xhsshare=CopyLink&appuid=62a4b19e000000002102932e&apptime=1695618050',
     name: '设计标准化',
-    img: 'https://sns-avatar-qc.xhscdn.com/avatar/639e74e9b9fffd3c81cf01ab.jpg',
+    img: 'cdn.yhz610.com/pic/blog/zhuazi.svg',
   },
   {
     url: 'https://www.xiaohongshu.com/user/profile/5f42a3660000000001003dc3?xhsshare=WeixinSession&appuid=62a4b19e000000002102932e&apptime=1695618119',
