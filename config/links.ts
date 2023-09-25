@@ -30,18 +30,18 @@ export const links : readonly [LinkType, LinkType, LinkType, LinkType, LinkType]
         name: "GitHub"
     },
     {
-        url: 'https://sspai.com/u/mannycooper/updates',
-        icon: Sspai,
+        url: 'https://www.xiaohongshu.com/user/profile/62a4b19e000000002102932e',
+        icon: 小红书,
         color: 'from-bg-[#d7161c] to-bg-[#fc281a]',
         fill: "fill-[#da282a]",
         border: "border-[#da282a]",
         shadow: "shadow-red-300",
         text:"text-[#da282a]",
-        name: "少数派"
+        name: "小红书"
     },
     {
         // # banned
-        url: 'https://www.zhihu.com/people/an-zi-fan-62',
+        url: 'https://www.zhihu.com/people/allen2022',
         icon: Zhihu,
         color: 'from-true-gray-400 to-true-gray-300 dark:(from-true-gray-600 to-true-gray-500)',
         fill: "fill-[#0084FF]",
@@ -52,14 +52,14 @@ export const links : readonly [LinkType, LinkType, LinkType, LinkType, LinkType]
         name: "知乎"
     },
     {
-        url: 'https://dribbble.com/anzifan',
-        icon: Dribbble,
+        url: 'https://www.xiaohongshu.com/user/profile/62a4b19e000000002102932e',
+        icon: 小红书,
         fill: "fill-[#EA4C89]",
         border: "border-[#EA4C89]",
         shadow: "shadow-pink-300",
         text:"text-[#EA4C89]",
         color: 'from-bg-[#ea4c89] to-bg-[#ff589f]',
-        name: 'Dribbble'
+        name: '小红书'
     },
     {
         url: 'https://space.bilibili.com/516566501',
