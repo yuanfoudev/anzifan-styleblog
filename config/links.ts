@@ -41,7 +41,7 @@ export const links : readonly [LinkType, LinkType, LinkType, LinkType, LinkType]
     },
     {
         // # banned
-        url: 'https://https://www.zhihu.com/people/allen2022',
+        url: 'https://www.zhihu.com/people/allen2022',
         icon: Zhihu,
         color: 'from-true-gray-400 to-true-gray-300 dark:(from-true-gray-600 to-true-gray-500)',
         fill: "fill-[#0084FF]",
