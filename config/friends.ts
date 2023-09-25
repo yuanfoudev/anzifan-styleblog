@@ -13,7 +13,7 @@ export const friends: FriendType[] = [
   {
     url: 'https://www.xiaohongshu.com/user/profile/5f42a3660000000001003dc3?xhsshare=WeixinSession&appuid=62a4b19e000000002102932e&apptime=1695618119',
     name: '设计标准化(有料)',
-    img: 'https://sns-avatar-qc.xhscdn.com/avatar/633692b1913a188ecbe0087e.jpg?imageView2/2/w/540/format/webp|imageMogr2/strip2',
+    img: 'https://sns-avatar-qc.xhscdn.com/avatar/633692b1913a188ecbe0087e.jpg',
   },
   {
     url: 'https://blog.cugxuan.cn',
