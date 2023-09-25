@@ -19,15 +19,15 @@ export type LinkType = {
 
 export const links : readonly [LinkType, LinkType, LinkType, LinkType, LinkType] = [
     {
-        url: 'https://github.com/MannyCooper',
-        icon: Github,
+        url: 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU5NTkwMDAzOA==',
+        icon: 公众号,
         color: 'from-bg-[#24292f] to-bg-[#040d21]',
         fill: "fill-[#181717]",
         border: "border-[#181717]",
         text:"text-[#181717]",
         shadow: "shadow-true-gray-400",
         id: "MannyCooper",
-        name: "GitHub"
+        name: "公众号"
     },
     {
         url: 'https://www.xiaohongshu.com/user/profile/62a4b19e000000002102932e',
