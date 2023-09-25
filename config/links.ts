@@ -37,7 +37,7 @@ export const links : readonly [LinkType, LinkType, LinkType, LinkType, LinkType]
         border: "border-[#da282a]",
         shadow: "shadow-red-300",
         text:"text-[#da282a]",
-        name: "小红书"
+        name: "Dribbble"
     },
     {
         // # banned
