@@ -97,10 +97,10 @@ const Overview = () => {
                 <div className="text-sm font-semibold xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl">
                     <div>
                         <span className="inline-block mr-2 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
-                            Developer
+                            Architect
                         </span>
                         <span className="inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-indigo-500">
-                            Designer
+                            Player
                         </span>
                     </div>
                     <div>
