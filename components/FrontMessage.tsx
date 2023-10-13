@@ -52,23 +52,23 @@ const FrontMessage: FC<{ post: Post }> = ({ post }) => {
         { content: `${updateDaysPassed}`, bold: true},
         { content: " days ago and some of the ideas may be out of date" }
     ]);
-
-    const sspaiMessage = generateCalloutValue(<Sspai className="fill-white h-5 w-5 bg-red-500 rounded-full p-1" />, "red_background", [
-        { content : "本文首发于 "},
-        { content : "少数派", link: { url: post.sspai }},
-        { content : " 🎉" }
+ 
+     const sspaiMessage = generateCalloutValue(<Sspai className="fill-white h-5 w-5 bg-red-500 rounded-full p-1" />, "red_background", [
+         { content : "本文首发于 "},
+         { content : "少数派", link: { url: post.sspai }},
+         { content : " 🎉" }
     ])
 
     const tipMessage = generateCalloutValue("ℹ️", "blue_background", [{content: post.tip}]);
 
     return (
         <>
-            {isOldBlog ?
-                <NotionCallout value={oldBlogMessage} /> : null                
-            }
-            { updateDaysPassed > 365 ?
-                <NotionCallout value={outDatedMessage} /> : null
-            }
+          //   {isOldBlog ?
+              //   <NotionCallout value={oldBlogMessage} /> : null                
+          //   }
+          //   { updateDaysPassed > 365 ?
+              //   <NotionCallout value={outDatedMessage} /> : null
+          //  }
             {
                 post.sspai !== "" ?  
                 <NotionCallout value={sspaiMessage} /> 
