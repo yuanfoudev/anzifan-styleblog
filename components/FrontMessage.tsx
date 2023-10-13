@@ -63,12 +63,12 @@ const FrontMessage: FC<{ post: Post }> = ({ post }) => {
 
     return (
         <>
-          //   {isOldBlog ?
-              //   <NotionCallout value={oldBlogMessage} /> : null                
-          //   }
-          //   { updateDaysPassed > 365 ?
-              //   <NotionCallout value={outDatedMessage} /> : null
-          //  }
+             {isOldBlog ?
+                 <NotionCallout value={oldBlogMessage} /> : null                
+             }
+             { updateDaysPassed > 365 ?
+                 <NotionCallout value={outDatedMessage} /> : null
+            }
             {
                 post.sspai !== "" ?  
                 <NotionCallout value={sspaiMessage} /> 
