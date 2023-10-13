@@ -19,7 +19,7 @@ export type LinkType = {
 
 export const links : readonly [LinkType, LinkType, LinkType, LinkType, LinkType] = [
     {
-        url: 'https://github.com/MannyCooper',
+        url: 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU5NTkwMDAzOA==',
         icon: Github,
         color: 'from-bg-[#24292f] to-bg-[#040d21]',
         fill: "fill-[#181717]",
@@ -30,7 +30,7 @@ export const links : readonly [LinkType, LinkType, LinkType, LinkType, LinkType]
         name: "GitHub"
     },
     {
-        url: 'https://sspai.com/u/mannycooper/updates',
+        url: 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU5NTkwMDAzOA==',
         icon: Sspai,
         color: 'from-bg-[#d7161c] to-bg-[#fc281a]',
         fill: "fill-[#da282a]",
@@ -52,7 +52,7 @@ export const links : readonly [LinkType, LinkType, LinkType, LinkType, LinkType]
         name: "知乎"
     },
     {
-        url: 'https://dribbble.com/anzifan',
+        url: 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU5NTkwMDAzOA==',
         icon: Dribbble,
         fill: "fill-[#EA4C89]",
         border: "border-[#EA4C89]",
