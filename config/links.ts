@@ -44,22 +44,26 @@ export const links : readonly [LinkType, LinkType, LinkType, LinkType, LinkType]
         // # banned
         url: 'https://www.zhihu.com/people/allen2022',
         icon: Zhihu,
-        color: 'from-true-gray-400 to-true-gray-300 dark:(from-true-gray-600 to-true-gray-500)',
-        fill: "fill-[#0084FF]",
-        border: "border-[#0084FF]",
-        shadow: "shadow-blue-300",
-        text:"text-[#0084FF]",
-        id: "optional",
-        name: "知乎"
-    },
-    {
-        url: 'https://space.bilibili.com/516566501',
-        icon: Bilibili,
         fill: "fill-[#0A66C2]",
         border: "border-[#0A66C2]",
         shadow: "shadow-blue-300",
         text:"text-[#0A66C2]",
         color: 'from-bg-[#0b66c2] to-bg-[#008bff]',
+        name: "知乎"
+    },
+    {
+        url: 'https://space.bilibili.com/516566501',
+        icon: Bilibili,
+        // fill: "fill-[#0A66C2]",
+        // border: "border-[#0A66C2]",
+        // shadow: "shadow-blue-300",
+        // text:"text-[#0A66C2]",
+        // color: 'from-bg-[#0b66c2] to-bg-[#008bff]',
+        color: 'from-true-gray-400 to-true-gray-300 dark:(from-true-gray-600 to-true-gray-500)',
+        fill: "fill-[#0084FF]",
+        border: "border-[#0084FF]",
+        shadow: "shadow-blue-300",
+        text:"text-[#0084FF]",
         name: 'bilibili'
     },
     {
@@ -70,6 +74,7 @@ export const links : readonly [LinkType, LinkType, LinkType, LinkType, LinkType]
         shadow: "shadow-pink-300",
         text:"text-[#EA4C89]",
         color: 'from-bg-[#ea4c89] to-bg-[#ff589f]',
-        name: 'taobao'
+        name: 'taobao',
+        id: "optional",
     }
 ]
