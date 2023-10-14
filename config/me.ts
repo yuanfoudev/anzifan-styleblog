@@ -50,7 +50,7 @@ export const me = {
             authors: [
                 { name: "Ziqing Yang", },
                 {
-                    name: "Allen Zhang",
+                    name: "Allen",
                     me: true
                 },
                 { name: "Zehao Fan" },
