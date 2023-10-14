@@ -84,7 +84,7 @@ const Overview = () => {
                     Intersted in</p>
                 <div className="text-center">
                     <p className="text-sm font-semibold xs:text-xl sm:text-2xl md:text-3xl">
-                        Web & Mobile Development, Machine Learning
+                        Design, Drawing, Film, Sports, Web & Mobile Development, Machine Learning
                     </p>
 
                 </div>
