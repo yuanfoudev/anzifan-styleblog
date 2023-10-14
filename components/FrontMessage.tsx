@@ -41,23 +41,7 @@ const FrontMessage: FC<{ post: Post }> = ({ post }) => {
     const isOldBlog = createDate.isBefore(moment([2022, 5, 7]))
     const updateDaysPassed = isOldBlog ? moment().diff(createDate, "days") : moment().diff(updateDate, "days")
 
-    const oldBlogMessage = generateCalloutValue("⚠️", "yellow_background", [
-        { content: "This post is from the " },
-        { content: "old blog", link: { url: `https://anzifan-old.vercel.app/post/${post.slug}` } },
-        { content: ", so may not be presented at the best" }
-    ]);
 
-    const outDatedMessage = generateCalloutValue("⚠️", "orange_background", [
-        { content: "This post was updated " },
-        { content: `${updateDaysPassed}`, bold: true},
-        { content: " days ago and some of the ideas may be out of date" }
-    ]);
- 
-     const sspaiMessage = generateCalloutValue(<Sspai className="fill-white h-5 w-5 bg-red-500 rounded-full p-1" />, "red_background", [
-         { content : "本文首发于 "},
-         { content : "少数派", link: { url: post.sspai }},
-         { content : " 🎉" }
-    ])
 
     const tipMessage = generateCalloutValue("ℹ️", "blue_background", [{content: post.tip}]);
 
