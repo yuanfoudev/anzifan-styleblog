@@ -1,8 +1,8 @@
-import { Github, Dribbble, Props, Linkedin, Wechat, Taobao } from '@icons-pack/react-simple-icons'
+import { Github, Dribbble, Props, Linkedin, Wechat, Taobao, Bilibili } from '@icons-pack/react-simple-icons'
 import { FC } from 'react'
 import Sspai from '../assets/sspai.svg'
 import Zhihu from '../assets/zhihu.svg'
-import bilibili from '../assets/bilibili.svg'
+// import bilibili from '../assets/bilibili.svg'
 
 export type LinkType = {
     url: string,
@@ -63,7 +63,7 @@ export const links : readonly [LinkType, LinkType, LinkType, LinkType, LinkType]
     },
     {
         url: 'https://space.bilibili.com/516566501',
-        icon: bilibili,
+        icon: Bilibili,
         fill: "fill-[#0A66C2]",
         border: "border-[#0A66C2]",
         shadow: "shadow-blue-300",
