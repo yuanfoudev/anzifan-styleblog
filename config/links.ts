@@ -1,4 +1,4 @@
-import { Github, Dribbble, Props, Linkedin, SiWechat, SiTaobao } from '@icons-pack/react-simple-icons'
+import { Github, Dribbble, Props, Linkedin, Wechat, Taobao } from '@icons-pack/react-simple-icons'
 import { FC } from 'react'
 import Sspai from '../assets/sspai.svg'
 import Zhihu from '../assets/zhihu.svg'
