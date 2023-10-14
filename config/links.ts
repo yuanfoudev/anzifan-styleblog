@@ -22,11 +22,11 @@ export const links : readonly [LinkType, LinkType, LinkType, LinkType, LinkType]
     {
         url: 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU5NTkwMDAzOA==',
         icon: Wechat,
-        color: 'from-bg-[#24292f] to-bg-[#040d21]',
-        fill: "fill-[#181717]",
-        border: "border-[#181717]",
-        text:"text-[#181717]",
-        shadow: "shadow-true-gray-400",
+        color: 'from-bg-[#0ba360] to-bg-[#3cba92]',
+        fill: "fill-[#3cba92]",
+        border: "border-[#3cba92]",
+        text:"text-[#3cba92]",
+        shadow: "shadow-true-green-400",
         id: "Wechat",
         name: "公众号"
     },
