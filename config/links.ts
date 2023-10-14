@@ -1,4 +1,4 @@
-import { Github, Dribbble, Props, Linkedin } from '@icons-pack/react-simple-icons'
+import { Github, Dribbble, Props, Linkedin, SiWechat, SiTaobao } from '@icons-pack/react-simple-icons'
 import { FC } from 'react'
 import Sspai from '../assets/sspai.svg'
 import Zhihu from '../assets/zhihu.svg'
@@ -20,14 +20,14 @@ export type LinkType = {
 export const links : readonly [LinkType, LinkType, LinkType, LinkType, LinkType] = [
     {
         url: 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU5NTkwMDAzOA==',
-        icon: Github,
+        icon: SiWechat,
         color: 'from-bg-[#24292f] to-bg-[#040d21]',
         fill: "fill-[#181717]",
         border: "border-[#181717]",
         text:"text-[#181717]",
         shadow: "shadow-true-gray-400",
-        id: "MannyCooper",
-        name: "GitHub"
+        id: "Wechat",
+        name: "公众号"
     },
     {
         url: 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU5NTkwMDAzOA==',
