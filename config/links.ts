@@ -2,6 +2,7 @@ import { Github, Dribbble, Props, Linkedin, Wechat, Taobao, Bilibili } from '@ic
 import { FC } from 'react'
 import Sspai from '../assets/sspai.svg'
 import Zhihu from '../assets/zhihu.svg'
+import Xiaohongshu from '../assets/xiaohs.svg'
 // import bilibili from '../assets/bilibili.svg'
 
 export type LinkType = {
@@ -31,13 +32,13 @@ export const links : readonly [LinkType, LinkType, LinkType, LinkType, LinkType]
     },
     {
         url: 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU5NTkwMDAzOA==',
-        icon: Sspai,
+        icon: Xiaohs,
         color: 'from-bg-[#d7161c] to-bg-[#fc281a]',
         fill: "fill-[#da282a]",
         border: "border-[#da282a]",
         shadow: "shadow-red-300",
         text:"text-[#da282a]",
-        name: "少数派"
+        name: "小红书"
     },
     {
         // # banned
