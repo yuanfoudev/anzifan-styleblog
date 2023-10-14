@@ -15,7 +15,7 @@ module.exports = withPWA(
       return config
     },
     images: {
-      domains: ['jsd.lihaoyu.cn','amzimg.com','prod-files-secure.s3.us-west-2.amazonaws.com','file.notion.so','i0.hdslb.com','media4.giphy.com', 'images.unsplash.com','cdn.yhz610.com', 'images.adsttc.com','cdn.yhz610.com','static.anzifan.com', 'cdn.sspai.com', 'cdn.dribbble.com', 'image.freepik.com', 'avatars.githubusercontent.com', 'cdn.jsdelivr.net', 'image.cugxuan.cn', 'blog-static.mikuchan.top', 'amazonaws.com', 'img.zhheo.com', 'www.aohuiliu.fun', 'rxhsk.xicp.fun', 'www.fomal.cc'],
+      domains: ['jsd.lihaoyu.cn','amzimg.com','prod-files-secure.s3-us-west-2.amazonaws.com','file.notion.so','i0.hdslb.com','media4.giphy.com', 'images.unsplash.com','cdn.yhz610.com', 'images.adsttc.com','cdn.yhz610.com','static.anzifan.com', 'cdn.sspai.com', 'cdn.dribbble.com', 'image.freepik.com', 'avatars.githubusercontent.com', 'cdn.jsdelivr.net', 'image.cugxuan.cn', 'blog-static.mikuchan.top', 'amazonaws.com', 'img.zhheo.com', 'www.aohuiliu.fun', 'rxhsk.xicp.fun', 'www.fomal.cc'],
     },
     pwa: {
       dest: "public",
