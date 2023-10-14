@@ -31,8 +31,8 @@ export const links : readonly [LinkType, LinkType, LinkType, LinkType, LinkType]
         name: "公众号"
     },
     {
-        url: 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU5NTkwMDAzOA==',
-        icon: Xiaohs,
+        url: 'https://www.xiaohongshu.com/user/profile/62a4b19e000000002102932e?xhsshare=CopyLink&appuid=62a4b19e000000002102932e&apptime=1697272392',
+        icon: Xiaohongshu,
         color: 'from-bg-[#d7161c] to-bg-[#fc281a]',
         fill: "fill-[#da282a]",
         border: "border-[#da282a]",
