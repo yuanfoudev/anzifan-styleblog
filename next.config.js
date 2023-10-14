@@ -15,7 +15,7 @@ module.exports = withPWA(
       return config
     },
     images: {
-      domains: ['sjbzh.notion.site','cdn.yhz610.com','static.anzifan.com', 'cdn.sspai.com', 'cdn.dribbble.com', 'image.freepik.com', 'avatars.githubusercontent.com', 'cdn.jsdelivr.net', 'image.cugxuan.cn', 'blog-static.mikuchan.top', 'amazonaws.com', 'img.zhheo.com', 'www.aohuiliu.fun', 'rxhsk.xicp.fun', 'www.fomal.cc'],
+      domains: ['https://sjbzh.notion.site/sjbzh/57a9d86d94e84ae0baae7517f5535147?v=7f3dc97af0764a8187b83c5cd869bab7','cdn.yhz610.com','static.anzifan.com', 'cdn.sspai.com', 'cdn.dribbble.com', 'image.freepik.com', 'avatars.githubusercontent.com', 'cdn.jsdelivr.net', 'image.cugxuan.cn', 'blog-static.mikuchan.top', 'amazonaws.com', 'img.zhheo.com', 'www.aohuiliu.fun', 'rxhsk.xicp.fun', 'www.fomal.cc'],
     },
     pwa: {
       dest: "public",
