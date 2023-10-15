@@ -49,7 +49,7 @@ const Footer = () => {
                                 <p className="group">Design & Build with <span className="group-hover:text-red-400 transition-colors duration-500 ease-in-out">❤</span> by <a className="text-true-gray-600 hover:underline" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU5NTkwMDAzOA==" target="_blank" rel="noopener noreferrer" dark="text-true-gray-400">MannyCooper & TeleGalaxy</a></p>
                             </div>
                             <p className="flex flex-col items-end">
-                                <a className="hover:underline" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU5NTkwMDAzOA==" target="_blank" rel="noopener noreferrer">公众号</a>
+                                <a className="hover:underline" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU5NTkwMDAzOA==" target="_blank" rel="noopener noreferrer">Allen</a>
                             </p>
                         </div>
                         <div className="text-xs flex justify-between">
