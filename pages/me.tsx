@@ -413,7 +413,7 @@ const Me: NextPage<{ posts: Post[] }> = ({ posts }) => {
             <div className="px-4 mx-auto my-6 lg:px-11 md:px-5 md:w-screen-md lg:w-screen-lg">
                 <Overview />
             </div>
-            <ProjectHero />
+{/*             <ProjectHero /> */}
             <ListLayout>
                 <div className="my-10">
                     <Project />
