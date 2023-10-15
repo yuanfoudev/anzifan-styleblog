@@ -93,7 +93,7 @@ const PostPage: NextPage<{ page: Post; blocks: any[]; pagination: any; posts: an
                         <a href="mailto:541297173@qq.com">
                             <div className="inline-block px-2 py-1 space-x-2 text-sm rounded-full whitespace-nowrap bg-true-gray-100 text-true-gray-800" dark="bg-true-gray-800 text-true-gray-100">
                                 <FontAwesomeIcon icon={faPalette} />
-                                <span>原创封面图，请勿盗用</span>
+                              //  <span>原创封面图，请勿盗用</span>
                             </div>
                         </a> : null}
                     {/* Tags */}
