@@ -46,7 +46,7 @@ const Footer = () => {
                                         )}
                                     </div>
                                 </div>
-                                <p className="group">Design & Build with <span className="group-hover:text-red-400 transition-colors duration-500 ease-in-out">❤</span> by <a className="text-true-gray-600 hover:underline" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU5NTkwMDAzOA==" target="_blank" rel="noopener noreferrer" dark="text-true-gray-400">设计标准化</a></p>
+                                <p className="group">Design & Build with <span className="group-hover:text-red-400 transition-colors duration-500 ease-in-out">❤</span> by <a className="text-true-gray-600 hover:underline" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU5NTkwMDAzOA==" target="_blank" rel="noopener noreferrer" dark="text-true-gray-400">编写:安子璠 搭建:TeleGalaxy</a></p>
                             </div>
                             <p className="flex flex-col items-end">
                                 <a className="hover:underline" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU5NTkwMDAzOA==" target="_blank" rel="noopener noreferrer">公众号</a>
@@ -67,8 +67,8 @@ const Footer = () => {
                         </div>
                         <p className="space-x-1 md:space-x-2 text-[10px] mt-2 text-true-gray-300">
                                     <span><a className="hover:underline hover:text-true-gray-400" dark="text-true-gray-700 hover:text-true-gray-400" href="http://beian.miit.gov.cn/" rel="noopener noreferrer" target="_blank">鲁ICP备2023031946号</a></span>
-                                    <span><a className="hover:underline hover:text-true-gray-400" dark="text-true-gray-700 hover:text-true-gray-400" href="https://blog.ikk.ink/" rel="noopener noreferrer" target="_blank">TeleGalaxy</a></span>
-                        </p>  
+{/*                                     <span><a className="hover:underline hover:text-true-gray-400" dark="text-true-gray-700 hover:text-true-gray-400" href="https://blog.ikk.ink/" rel="noopener noreferrer" target="_blank">TeleGalaxy</a></span>
+                        </p>   */}
                     </section>
                 </div>
             </footer>
