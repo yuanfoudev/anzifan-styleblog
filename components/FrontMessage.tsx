@@ -2,7 +2,7 @@ import { FC } from "react"
 import { Post } from "../lib/types"
 import NotionCallout from "./notionBlocks/NotionCallout"
 import moment from "moment";
-import Sspai from '../assets/sspai.svg'
+import { Wechat } from '@icons-pack/react-simple-icons'
 
 function generateText(texts: any[]) {
     return texts.map((text: any) => {
@@ -53,9 +53,9 @@ const FrontMessage: FC<{ post: Post }> = ({ post }) => {
         { content: " days ago and some of the ideas may be out of date" }
     ]);
  
-     const sspaiMessage = generateCalloutValue(<Sspai className="fill-white h-5 w-5 bg-red-500 rounded-full p-1" />, "red_background", [
+     const wechatMessage = generateCalloutValue(<Wechat className="fill-white h-5 w-5 bg-green-500 rounded-full p-1" />, "green_background", [
          { content : "本文首发于 "},
-         { content : "少数派", link: { url: post.sspai }},
+         { content : "微信公众号", link: { url: post.wechat }},
          { content : " 🎉" }
     ])
 
@@ -71,7 +71,7 @@ const FrontMessage: FC<{ post: Post }> = ({ post }) => {
             }
             {
                 post.sspai !== "" ?  
-                <NotionCallout value={sspaiMessage} /> : null
+                <NotionCallout value={wechatMessage} /> : null
             }
             {
                 post.tip !== "" ?
