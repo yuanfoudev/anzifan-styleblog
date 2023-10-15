@@ -25,21 +25,21 @@ export const me = {
         {
             name: 'Nanjing University of Posts and Telecommunications',
             time: '2016-2020',
-            degree: 'BS, Computer Science',
+            degree: 'BS, Architecture',
             color: 'blue',
             logo : "/static/images/njupt.png",
         },
         {
             name: 'New York Institute of Technology',
-            time: '2016-2020*',
-            degree: 'BS, Computer Science',
+            time: '2011-2015*',
+            degree: 'BS, Architecture',
             color: 'yellow',
             logo : "/static/images/nyit.png",
         },
         {
             name: 'Northeastern University',
-            time: '2021-2022',
-            degree: 'MS, Computer Software Engineering',
+            time: '2011-2015',
+            degree: 'MS, Architecture',
             color: 'red',
             logo : "/static/images/neu.png",
         }
