@@ -55,7 +55,7 @@ const FrontMessage: FC<{ post: Post }> = ({ post }) => {
  
      const wechatMessage = generateCalloutValue(<Wechat className="fill-white h-5 w-5 bg-green-500 rounded-full p-1" />, "green_background", [
          { content : "本文首发于 "},
-         { content : "微信公众号", link: { url: post.wechat }},
+         { content : "微信公众号：设计标准化", link: { url: post.sspai }},
          { content : " 🎉" }
     ])
 
