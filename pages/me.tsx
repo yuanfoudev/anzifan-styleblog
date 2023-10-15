@@ -266,7 +266,7 @@ const Overview = () => {
                     </div>
                 </div>
             </div>
-            <div data-aos="fade-up" data-aos-duration="800" className={`${style} col-span-2`}>
+{/*             <div data-aos="fade-up" data-aos-duration="800" className={`${style} col-span-2`}>
                 <div className="flex items-center justify-between mb-4">
                     <h1 className={`text-2xl sm:text-3xl font-bold ${Colors["blue"].text.msg}`}>Publication</h1>
                     <a href={publication.link}>
@@ -297,7 +297,7 @@ const Overview = () => {
         </div>
     )
 }
-
+ */}
 const Skills = () => {
     return (
         <CardLayout>
