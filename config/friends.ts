@@ -11,8 +11,8 @@ export const friends: FriendType[] = [
     img: 'https://www.fomal.cc/assets/head.jpg',
   },
   {
-    url: 'https://www.xiaohongshu.com/user/profile/611b7ce10000000001015a52?xhsshare=CopyLink&appuid=62a4b19e000000002102932e&apptime=1695618050',
-    name: '设计标准化',
+    url: 'https://blog.yhz610.com',
+    name: '阿猫阿狗',
     img: 'https://cdn.yhz610.com/pic/blog/zhuazi.svg',
   },
   {
