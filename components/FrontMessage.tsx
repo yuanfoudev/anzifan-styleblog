@@ -39,7 +39,7 @@ const FrontMessage: FC<{ post: Post }> = ({ post }) => {
     const updateDate = moment(post.updateDate)
     const createDate = moment(post.date)
     const isOldBlog = createDate.isBefore(moment([1000, 1, 7]))
-    const updateDaysPassed = isOldBlog(moment([1000, 1, 7]))
+    const updateDaysPassed = isOldBlog ? moment().diff(createDate, "days") : moment().diff(updateDate, "days")
     const oldBlogMessage = generateCalloutValue("⚠️", "yellow_background", [
         { content: "This post is from the " },
         { content: "old blog", link: { url: `https://anzifan-old.vercel.app/post/${post.slug}` } },
