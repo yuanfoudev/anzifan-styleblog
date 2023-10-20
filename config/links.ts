@@ -67,7 +67,7 @@ export const links : readonly [LinkType, LinkType, LinkType, LinkType, LinkType]
         name: 'bilibili'
     },
     {
-        url: 'https://www.sjbzh.ac.cn/post/page',
+        url: 'https://www.sjbzh.ac.cn/post/Shopping',
         icon: Taobao,
         fill: "fill-[#EA4C89]",
         border: "border-[#EA4C89]",
