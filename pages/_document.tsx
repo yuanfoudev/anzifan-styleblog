@@ -18,6 +18,7 @@ export default function Document() {
     return (
         <Html>
             <Head>
+                <meta name="baidu-site-verification" content="codeva-MmpE09MgVU" />
                 {/* Global Site Tag (gtag.js) - Google Analytics */}
                 <script
                     async
