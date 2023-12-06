@@ -20,7 +20,7 @@ export type LinkType = {
 
 export const links : readonly [LinkType, LinkType, LinkType, LinkType, LinkType] = [
     {
-        url: 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU5NTkwMDAzOA==',
+        url: 'https://i0.hdslb.com/bfs/article/2cf6e1cedd4c0ab2013d6e5fd384be39516566501.jpg@1256w_1670h_!web-article-pic.avif',
         icon: Wechat,
         color: 'from-bg-[#0ba360] to-bg-[#3cba92]',
         fill: "fill-[#3cba92]",
