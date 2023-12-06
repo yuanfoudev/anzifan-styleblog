@@ -45,45 +45,6 @@ const Comment = () => {
         },
     ]
 
-    return (
-        <div className="pb-4 md:pb-8">
-            <h1 className="my-4 text-2xl font-bold md:text-3xl lg:my-8 text-center">
-                Comments
-            </h1>
-            <div className="mb-8 rounded-3xl">
-                <Tab.Group>
-                    <Tab.List className="flex rounded-xl bg-true-gray-100 p-1 flex-col md:flex-row" dark="bg-true-gray-800">
-                        {
-                            comments.map(comment => (
-                                <Tab
-                                    key={comment.name}
-                                    className={({ selected }) =>
-                                        classNames(
-                                            'w-full rounded-lg py-2.5 text-xs xs:text-sm font-medium leading-5 line-clamp-1',
-                                            selected
-                                                ? 'bg-white dark:(bg-true-gray-900 text-true-gray-200) shadow text-true-gray-700'
-                                                : 'text-true-gray-400 hover:bg-white/[0.12] hover:text-true-gray-500'
-                                        )
-                                    }>{comment.name}</Tab>
-                            ))
-                        }
-                    </Tab.List>
-                    <Tab.Panels className="mt-2">
-                        {
-                            comments.map(comment => (
-                                <Tab.Panel
-                                    key={comment.name + "_component"}
-                                    className="my-8"
-                                >
-                                    {comment.component}
-                                </Tab.Panel>
-                            ))
-                        }
-                    </Tab.Panels>
-                </Tab.Group>
-            </div>
-        </div>
-    )
-}
+ return (  <div className="pb-4 md:pb-8"/>  )
 
 export default Comment
