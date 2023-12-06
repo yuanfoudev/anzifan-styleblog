@@ -21,7 +21,7 @@
     "@giscus/react": "^1.0.5",
     "@headlessui/react": "^1.4.2",
     "@icons-pack/react-simple-icons": "^4.6.1",
-    "@notionhq/client": "^2.2.13",
+    "@notionhq/client": "^0.4.11",
     "@plaiceholder/next": "^2.2.0",
     "@types/aos": "^3.0.4",
     "@types/gtag.js": "^0.0.10",
