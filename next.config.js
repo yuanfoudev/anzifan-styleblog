@@ -15,7 +15,7 @@ module.exports = withPWA(
       return config
     },
     images: {
-      domains: ['jsd.lihaoyu.cn','amzimg.com','i0.hdslb.com','media4.giphy.com','images.unsplash.com','cdn.yhz610.com', 'images.adsttc.com', 'prod-files-secure.s3-us-west-2.amazonaws.com','file.notion.so','www.notion.so','amazonaws.com', 'cdn.yhz610.com','static.anzifan.com', 'cdn.sspai.com', 'cdn.dribbble.com', 'image.freepik.com', 'avatars.githubusercontent.com', 'cdn.jsdelivr.net', 'image.cugxuan.cn', 'blog-static.mikuchan.top', 'img.zhheo.com', 'www.aohuiliu.fun', 'rxhsk.xicp.fun', 'www.fomal.cc'],
+      domains: ['mmbiz.qpic.cn','jsd.lihaoyu.cn','amzimg.com','i0.hdslb.com','media4.giphy.com','images.unsplash.com','cdn.yhz610.com', 'images.adsttc.com', 'prod-files-secure.s3-us-west-2.amazonaws.com','file.notion.so','www.notion.so','amazonaws.com', 'cdn.yhz610.com','static.anzifan.com', 'cdn.sspai.com', 'cdn.dribbble.com', 'image.freepik.com', 'avatars.githubusercontent.com', 'cdn.jsdelivr.net', 'image.cugxuan.cn', 'blog-static.mikuchan.top', 'img.zhheo.com', 'www.aohuiliu.fun', 'rxhsk.xicp.fun', 'www.fomal.cc'],
     },
     pwa: {
       dest: "public",
