@@ -46,10 +46,10 @@ const Footer = () => {
                                         )}
                                     </div>
                                 </div>
-                                <p className="group">Design & Build with <span className="group-hover:text-red-400 transition-colors duration-500 ease-in-out">❤</span> by <a className="text-true-gray-600 hover:underline" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU5NTkwMDAzOA==" target="_blank" rel="noopener noreferrer" dark="text-true-gray-400">MannyCooper & TeleGalaxy</a></p>
+                                <p className="group">Design & Build with <span className="group-hover:text-red-400 transition-colors duration-500 ease-in-out">❤</span> by <a className="text-true-gray-600 hover:underline" href="https://i0.hdslb.com/bfs/article/2cf6e1cedd4c0ab2013d6e5fd384be39516566501.jpg@1256w_1670h_!web-article-pic.avif" target="_blank" rel="noopener noreferrer" dark="text-true-gray-400">MannyCooper & TeleGalaxy</a></p>
                             </div>
                             <p className="flex flex-col items-end">
-                                <a className="hover:underline" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU5NTkwMDAzOA==" target="_blank" rel="noopener noreferrer">Allen</a>
+                                <a className="hover:underline" href="https://i0.hdslb.com/bfs/article/2cf6e1cedd4c0ab2013d6e5fd384be39516566501.jpg@1256w_1670h_!web-article-pic.avif" target="_blank" rel="noopener noreferrer">Allen</a>
                             </p>
                         </div>
                         <div className="text-xs flex justify-between">
